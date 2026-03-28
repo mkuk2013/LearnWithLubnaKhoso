@@ -114,35 +114,35 @@ function App() {
       </main>
 
       <footer style={{ 
-        padding: '12rem 0 6rem', 
+        padding: '4rem 0 3rem', 
         background: 'linear-gradient(to bottom, transparent, var(--bg-deep))',
         borderTop: '1px solid rgba(255, 255, 255, 0.03)', 
-        marginTop: '10rem', 
+        marginTop: '2rem', 
         textAlign: 'center' 
       }}>
         <div className="container">
-          <a href="#" className="nav-brand text-reveal" style={{ fontSize: '3rem', marginBottom: '3rem', display: 'inline-block' }}>
+          <a href="#" className="nav-brand text-reveal" style={{ fontSize: '2.2rem', marginBottom: '2rem', display: 'inline-block' }}>
             LearnWithLubna
           </a>
           <p style={{ 
             color: 'var(--text-secondary)', 
-            maxWidth: '700px', 
-            margin: '0 auto 4rem', 
-            lineHeight: '2',
-            fontSize: '1.1rem',
+            maxWidth: '600px', 
+            margin: '0 auto 2rem', 
+            lineHeight: '1.8',
+            fontSize: '1rem',
             fontStyle: 'italic'
           }}>
             "Knowledge is the only asset that grows when shared. We are committed to 
             delivering the finest educational experience for the next generation of leaders."
           </p>
           
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '3rem', marginBottom: '6rem', flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', marginBottom: '3.5rem', flexWrap: 'wrap' }}>
             <a href="#" className="footer-link-elite">Portfolio</a>
             <a href="#" className="footer-link-elite">Curriculum</a>
             <a href="#" className="footer-link-elite">Academy Contact</a>
           </div>
 
-          <div style={{ opacity: 0.3, letterSpacing: '0.3em', fontSize: '0.7rem', fontWeight: '700' }}>
+          <div style={{ opacity: 0.3, letterSpacing: '0.3em', fontSize: '0.65rem', fontWeight: '700' }}>
             ESTABLISHED MMXXIV &bull; PREMIER EDUCATION &bull; ALL RIGHTS RESERVED
           </div>
         </div>

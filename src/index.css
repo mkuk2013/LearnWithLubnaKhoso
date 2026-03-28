@@ -168,11 +168,11 @@ h1, h2, h3 {
 
 /* Navbar Elite */
 .nav-elite {
-  height: 100px;
+  height: 80px;
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(2, 4, 8, 0.8);
+  background: rgba(2, 4, 8, 0.82);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   display: flex;
@@ -189,9 +189,9 @@ h1, h2, h3 {
 
 /* Cinematic Hero */
 .hero-cinema {
-  padding: 10rem 0 6rem;
+  padding: 6rem 0 3rem;
   text-align: center;
-  min-height: 80vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -219,9 +219,9 @@ h1, h2, h3 {
 /* Gallery Grid Elite */
 .grid-elite {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 2.5rem;
-  padding: 4rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 2rem;
+  padding: 2.5rem 0;
 }
 
 .card-elite {
